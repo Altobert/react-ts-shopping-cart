@@ -1,26 +1,32 @@
 [
   {
     "id": 1,
-    "name": "Book",
-    "price": 10.99,
-    "imgUrl": "/imgs/book.jpg"
+    "name": "Americana",
+    "price": 10000,
+    "imgUrl": "/imgs/pizza-americana.webp"
   },
   {
     "id": 2,
-    "name": "Computer",
-    "price": 1199,
-    "imgUrl": "/imgs/computer.jpg"
+    "name": "Campesina",
+    "price": 12000,
+    "imgUrl": "/imgs/pizza-campesina.jpeg"
   },
   {
     "id": 3,
-    "name": "Banana",
-    "price": 1.05,
-    "imgUrl": "/imgs/banana.jpg"
+    "name": "Hawaiana",
+    "price": 15000,
+    "imgUrl": "/imgs/pizza-hawaiana.jpeg"
   },
   {
     "id": 4,
-    "name": "Car",
-    "price": 14000,
-    "imgUrl": "/imgs/car.jpg"
+    "name": "Mechada BBQ",
+    "price": 18000,
+    "imgUrl": "/imgs/mechada_bbq.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Vegan Queen",
+    "price": 20000,
+    "imgUrl": "/imgs/vegan-queen.jpeg"
   }
 ]

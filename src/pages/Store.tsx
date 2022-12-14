@@ -5,7 +5,7 @@ import storeItems from "../data/items.json"
 export function Store() {
   return (
     <>
-      <h1>Elige tu pizza</h1>
+      <h1>Catálogo de Pizzas</h1>
       <Row md={2} xs={1} lg={3} className="g-3">
         {/*
           Se utiliza funcion map sacar una lista de item mas id de item
