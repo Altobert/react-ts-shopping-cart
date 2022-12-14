@@ -20,7 +20,7 @@ export function Navbar() {
           </Nav.Link>
         </Nav>
         {/* 
-            logica para ir incrementando la compra de productos
+              Si en el carro se agrega un producto, se muestra icono y se señala la cantidad
         */}
         {cartQuantity > 0 && (
           <Button
@@ -29,6 +29,9 @@ export function Navbar() {
             variant="outline-primary"
             className="rounded-circle">
                         
+            {/* 
+              Icono de carro de compra
+            */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 576 512"
