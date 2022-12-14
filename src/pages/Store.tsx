@@ -7,7 +7,9 @@ export function Store() {
     <>
       <h1>Elige tu pizza</h1>
       <Row md={2} xs={1} lg={3} className="g-3">
-        {/*Se utiliza funcion map para mostrar productos en pagina*/}        
+        {/*
+          Se utiliza funcion map sacar una lista de item mas id de item
+        */}        
         {storeItems.map(item => (
           <Col key={item.id}>
             <StoreItem {...item} />

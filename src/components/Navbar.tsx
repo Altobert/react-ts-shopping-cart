@@ -10,13 +10,13 @@ export function Navbar() {
       <Container>
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
-            Home
+            Pizzeria Tu Pizza
           </Nav.Link>
           <Nav.Link to="/store" as={NavLink}>
-            Store
+            Pizzas Armadas
           </Nav.Link>
           <Nav.Link to="/about" as={NavLink}>
-            About
+            Pagos
           </Nav.Link>
         </Nav>
         {/* 
@@ -27,8 +27,7 @@ export function Navbar() {
             onClick={openCart}
             style={{ width: "3rem", height: "3rem", position: "relative" }}
             variant="outline-primary"
-            className="rounded-circle"
-          >
+            className="rounded-circle">
                         
             <svg
               xmlns="http://www.w3.org/2000/svg"
